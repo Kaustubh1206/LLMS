@@ -1,0 +1,9 @@
+In this project we have implemented open sources and open ai llms. To use both llms at a time we have used fast api and for ui we used streamlit.
+
+
+
+use 
+- python app.py to get api docs 
+        - used http://localhost/8000/docs
+
+- streamlit client.py
