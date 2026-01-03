@@ -1,0 +1,7 @@
+Roadmap-
+
+Transformers 
+Gen AI - Langchain
+       - Langgraph 
+RAG 
+Agent AI
