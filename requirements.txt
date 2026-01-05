@@ -1,28 +1,29 @@
-# Core LangChain (LOCKED)
-langchain==0.2.14
-langchain-core==0.2.43
-langchain-community==0.2.12
-langchain-openai==0.1.23
+# LangChain (MODERN – STABLE SNAPSHOT)
+langchain-core==0.3.19
+langchain-openai==0.2.8
+langchain-community==0.2.16
 langchain-text-splitters==0.2.4
-langserve==0.2.3
+langsmith==0.1.143
+langgraph==0.1.19
 
 # APIs
-openai>=1.40.0
+openai==1.43.0
 groq==0.37.1
 langchain-groq==0.1.10
 
-# Web / app
-fastapi==0.128.0
-uvicorn==0.40.0
-sse-starlette==3.1.1
-streamlit
+# Web / App
+fastapi==0.115.0
+uvicorn==0.30.6
+sse-starlette==2.1.3
+streamlit==1.37.0
+
+# Env
+python-dotenv==1.0.1
 
 # Docs / parsing
-python-dotenv
-beautifulsoup4
-bs4
-pypdfw
-PyPDF2
+beautifulsoup4==4.12.3
+pypdf==4.3.1
+PyPDF2==3.0.1
 wikipedia
 arxiv
 
@@ -33,7 +34,3 @@ sentence-transformers
 torch
 scikit-learn
 scipy
-
-# Optional
-langchainhub
-cassio
